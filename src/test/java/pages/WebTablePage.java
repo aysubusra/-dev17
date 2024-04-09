@@ -40,7 +40,7 @@ public class WebTablePage {
     }
 
     public static void editRecord() {
-        WebElement editButton = driver.findElement(new By.ByCssSelector("#edit-record-1"));
+        WebElement editButton = driver.findElement(new By.ByCssSelector("#edit-record-4"));
         editButton.click();
         WebElement nameField = driver.findElement(new By.ByCssSelector("#firstName"));
         nameField.clear();
